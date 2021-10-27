@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ImageSearch</title>
+    </head>
+		<style>
+			body {
+			text-align: center;
+			}
+			button {
+				border-radius:10px;
+			}
+			.wrapper{
+				position:absolute; right:1px; top:2px;
+				font-size:10px;
+				display:inline-block;
+			}
+			#main{
+				position:relative;	top:150px;
+			}
+			#box{
+				margin:5px;
+			}
+			#stext{
+				color:cornflowerblue;
+				font-family: Arial, Helvetica, sans-serif;
+				padding-right: 0px;
+			}
+	</style>
+    <body>
+	
+		<div id="main">
+			<img src="logo.jpg" alt="Logo">
+			<p1 id="stext">Images</p1>
+			<form action="https://images.google.com/images">
+				<input id ="box" type="text" name="q">
+				<div>
+				 <input type="submit" value="Image Search">
+				</div>
+			</form>
+		
+		</div>
+		<div class="wrapper">
+			<button class="other"><a href="index.html">Google Search</a></button>
+		</div>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced</title>
+    </head>
+		<style>
+			img{
+				text-align:left;
+				width:100px;
+				
+			}
+
+			
+			#wrapper{
+				position:absolute; right:10px; top:2px;
+			}
+			.other{
+				font-size:10px;
+				display:inline-block;
+				text-align: center;
+			}
+			#tableID{
+				text-align:left;
+				border: 1px solid white;
+				position:relative; top:30px; left:27px;
+				padding-right: 50px;
+			}
+			
+			#AdvBut{
+				position:relative;left:404px;top:30px;
+				background-color:#8ab4f8;
+				border-color:#8ab4f8;
+				border-radius:2px;
+				color:white;
+			}
+			#stext{
+
+				position:relative;left:30px; top:30px;
+				font-family:Arial,sans-serif;
+				color:brown;
+				
+			}
+			
+			
+			
+	</style>
+    <body>
+		<img src="logo.jpg" alt="Logo">
+		<div>
+			<b id="stext">Advanced Search</b>
+		</div>
+		<form action="https://www.google.com/advanced_search">
+		
+			<table id= "tableID">
+				<tr>
+					<td><text> "Find pages with… “all these words:”"</text></td>
+					<td><input type="text" name="as_q"></td>
+				</tr>
+				<tr>
+					<td><text> "Find pages with… “this exact word or phrase:”"</text></td>
+					<td><input type="text" name="as_epq"></td>
+				</tr>
+				<tr>
+					<td><text> "Find pages with… “any of these words:”"</text></td>
+					<td><input type="text" name="as_oq"></td>
+				</tr>
+				<tr>
+					<td><text> "Find pages with… “none of these words:”"</text></td>
+					<td><input type="text" name="as_eq"></td>
+				</tr>
+			</table>
+
+		<div>
+			<input id="AdvBut" type="submit" value="Google Search">
+		</div>
+		
+        </form>
+
+		<div id="wrapper">
+			<button class="other"><a href="image.html">Advanced Search</a></button>
+		</div>
+		
+		
+    </body>
+</html>
+

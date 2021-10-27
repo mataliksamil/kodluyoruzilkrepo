@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+		<style>
+			body {
+				text-align: center;
+			}
+			#box{
+				margin: 5px;
+				width: 	250px;
+			}
+			
+			.wrapper{
+				position:absolute; right:10px; top:2px;
+			}
+			#main{
+				position:relative; top:150px;
+			}
+			.other{
+				font-size:10px;
+				display:inline-block;
+				text-align: center;
+			}
+			
+			
+	</style>
+    <body>
+		<div id ="main">
+		<img src="logo.jpg" alt="Logo">
+        <form action="https://google.com/search">
+            <input id="box" type="text" name="q">
+			<div>
+            <input type="submit" value="Google Search">
+			<input name="btnI" type="submit" value="I'm Feeling Lucky">
+			</div>
+        </form>
+		</div>
+		<div class="wrapper">
+			<button class="other"><a href="image.html">Image Search</a></button>
+			<button class="other"><a href="advanced.html"> Advanced Search</a></button>
+		</div>
+		
+		
+    </body>
+</html>
